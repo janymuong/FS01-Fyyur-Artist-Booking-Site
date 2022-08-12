@@ -1,7 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
-#Models are moved into this module after creating a migrate in app.py
+#Models-->Artist, Venue, Show:
 
 class Artist(db.Model):
     __tablename__ = 'artist'
